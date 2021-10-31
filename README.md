@@ -30,4 +30,4 @@ Next, create the following functions:
    - Transfered the amount to employee_one.
    - Repeated the steps for employee_two and employee_three.
 
-Next, I created a fallback function using function() external payable, and called the deposit function from within it. This ensures that the logic in deposit executes if Ether is sent directly to the contract. This is important to prevent Ether from being locked in the contract since we don't have a withdraw function in this use-case.
+Finally, I created a fallback function using function() external payable, and called the deposit function from within it. This ensures that the logic in deposit executes if Ether is sent directly to the contract. This is important to prevent Ether from being locked in the contract since we don't have a withdraw function in this use-case. Contract funcationality has been recorded, and can be found in ../Screenshots
